@@ -1,0 +1,413 @@
+.body {
+  background-image: url('images/bg-body.jpg');
+  font-size: 11px;
+  font-family: Verdana, Arial, Sans-serif;
+  color: white;
+  background-color:#457089;
+  }
+  
+img {
+border:0px;
+}
+
+a {
+  text-decoration:      none;
+  color:                #000; }
+
+a:hover {
+  text-decoration:      underline;
+  color:                #004887; }
+  
+  
+
+.huge_container {
+  background-image: url('images/bg.png');
+  border: 1px solid #4F4F4F;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+  
+.main_container {
+  overflow:auto;
+  margin:0px;
+  padding:10px;
+  }
+  
+  
+.rounded-5px {
+ -webkit-border-radius: 5px;
+ -khtml-border-radius:  5px;
+ -moz-border-radius:    5px;
+  border-radius:        5px;
+  }
+  
+
+.rounded-10px {
+ -webkit-border-radius: 10px;
+ -khtml-border-radius:  10px;
+ -moz-border-radius:    10px;
+  border-radius:        10px;
+  }
+  
+  
+
+.banner {
+  margin: 0px;
+  padding: 0px;
+  border: 0px solid black;
+  height: 140px;
+  background-position: right;
+  background-image: url('images/banner-t3.png');
+  background-repeat: no-repeat;
+  background-color: black;
+  }
+  
+  /* Animowany numer telefonu */
+.phone_number {
+  font-size:19px;
+  font-weight:bold;
+  background-image: url('images/bg-w.png');
+  color:black;
+  float:left;
+  padding:8px;
+  margin-left:20px;
+  display:none;
+  cursor:pointer;
+  }
+  /* ========= */
+  
+  
+.rotate-banner {
+  position: absolute;
+  z-index: 14;
+  background-image: url('images/banner1.jpg');
+  width: 484px;
+  height: 170px; 
+  margin-left: 316px;
+  //visibility: hidden;
+  }
+
+.footer {
+  margin-bottom: 0px;
+  background-image: url('images/white-tr-0-5.png');
+  width: inheritance;
+  border-top: 1px solid #595959;
+  text-align: center;
+  vertical-align: center;
+  font-family: Verdana, Arial, Sans-serif;
+  font-size: 11px; 
+  padding: 20px;
+  overflow:auto;
+  }
+  
+
+.flaga {
+  width: 66px;
+  height: 54px;
+  border: 0px;
+  background-position: top;
+  position: absolute;
+  cursor:pointer;
+  }
+  
+.flaga:hover {
+  width: 66px;
+  height: 54px;
+  border: 0px;
+  background-position: bottom;
+  position: absolute;
+  }
+  
+.PL {
+  background-image: url('images/PL.png');
+  margin-left: 800px;  
+  }
+  
+.DE {
+  background-image: url('images/DE.png'); 
+  margin-left: 800px;
+  margin-top: 40px; 
+  }
+  
+.EN {
+  background-image: url('images/EN.png'); 
+  margin-left: 800px;
+  margin-top: 80px; 
+  }
+  
+  
+.menu-horizontal {
+  position: relative;
+  float: top;
+  border-top: 0px;
+  border-bottom: 1px solid #595959;
+  width: inheritance;
+  height: 30px;
+  background-position: right bottom;
+  background-image: url('images/menu horizontal-3.png');
+  background-repeat: no-repeat;
+  background-color: black;
+  margin-top: 0px;
+  line-height: 30px;
+}
+  
+.btn-horizontal {
+  padding:6px 20px 6px 20px ;
+  height:25px;
+  margin-left:0px;
+  margin-right:0px;
+  border: 1px solid #101C26;
+  text-align: center;
+  background-image: url('images/btn-bg.png');
+  background-repeat: repeat-x;
+  background-position: top;
+  font-family: Verdana, Arial, Sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  }
+  
+  
+.btn-horizontal:hover {
+  background-position: bottom;
+  color:#FFFFFF;
+  }
+ 
+  
+.karteczka {
+  width: 213px;
+  height: 192px;
+  position: absolute;
+  background-image: url('images/karteczka3.png');
+  background-position: top;
+  }
+  
+.karteczka:hover {
+  background-position: bottom;
+  }
+  
+  
+  
+.drop {
+ background-image: url(images/background-blue.png); 
+ -webkit-border-radius: 5px;
+ -khtml-border-radius:  5px;
+ -moz-border-radius:    5px;
+  border-radius:        5px;
+ z-index:               1000;
+ padding:               10px;
+ position:              absolute;
+ line-height:           10px;
+}
+
+/* Początek wysuwanego menu oferty */ 
+
+.offert-drop {
+  top:                   35px;
+  left:                  100px;
+  display:none;
+  overflow:auto;
+  }
+  
+#offert-drop-bt {
+cursor:pointer;
+} 
+  
+.offert-drop ul {
+float:left;
+margin:0px;
+padding:0px;
+}
+
+.offert-drop ul li {
+margin-left:5px;
+list-style:none;
+}
+  
+.drop-link {
+  color: white;
+  font-size: 12px;
+  font-family: Verdana;
+  line-height: 30px;
+  text-decoration:line-through;
+  }
+  
+.drop-link:hover {
+  color: #ECBA0F;
+  text-shadow:#363636 2px 2px 2px;
+  }
+  
+  
+.drop-link-cell {
+  height: 23px;
+  margin: 0px;  
+  }
+   
+/* podgląd obrazkowy ofert */
+#offert-preview {
+  float:right;
+  width:120px;
+  height:120px;
+  background-color:#FFFFFF;
+  margin-left:30px;
+  color:black;
+  display:none;
+  padding:7px;
+}   
+   
+   
+/* Koniec wysuwanego menu oferty */ 
+  
+.gallery-drop {
+  width:                 290px;
+  top:                   35px;
+  left:                  215px;
+  }
+  
+
+.mapa {
+  width: 200px;
+  height: 250px;
+  background-image: url('images/mapka.gif');
+  background-position: top;
+  }
+  
+.mapa:hover {
+  background-position: bottom;
+  }
+   
+
+
+.shadow {
+-moz-box-shadow: 10px 10px 10px #000;
+-webkit-box-shadow: 10px 10px 20px #000;
+box-shadow: 5px 5px 10px #000;
+/* For IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+/* For IE 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+
+.contact-table {
+  width: 100%;
+  height: 500px;
+  }
+  
+.green-bt {
+  background: url('images/button-green.png') top;
+  height:20px;
+  padding:10px;
+  font-size: 15px;
+  font-family: Tahoma;
+  font-weight: bold;
+  color: #D4D4D4;
+  border: 1px solid #4D4D4D;
+  float: right;
+  }
+  
+.green-bt:hover {
+  background: url('images/button-green.png') bottom;
+  color: #FFFFFF;
+  }
+  
+  
+.cross-doc {
+  background-color: white; 
+  color: black;
+  padding:10px; 
+  background-image: url('images/hor-bg.png'), url('images/bg-w.png'); 
+  background-position:left; 
+  background-repeat: repeat-y, repeat;
+  }
+  
+.cross-doc-gray {
+  background-image:url('images/bg-gray.png'); 
+  background-color: #333333; 
+  color: white;
+  padding:10px; 
+  border: 1px solid #6B6B6B;
+  }
+  
+  
+.visit-gallery {
+  border: 1px solid #5C5C5C;
+  margin-left: 5px;
+  width: 120px;
+  background: url(images/visit-gallery.png) repeat-y left;
+  }
+  
+  
+.mail {
+  width: 115px;
+  height: 74px;
+  background-image: url('images/koperta.png');
+  background-position: top;
+  }
+  
+.mail:hover {
+  background-position: bottom;
+  }
+  
+ 
+ 
+.micromap {
+  width: 60px;
+  height: 75px;
+  background-image: url('images/micromap.png');
+  background-position: top;
+  }
+  
+.micromap:hover {
+  background-position: bottom;
+  }
+  
+/* Newsy */
+.news_box {
+  background-color:#BBCBD5;
+  color:black;
+  font-size:11px;
+  margin:10px;
+  float:right;
+  padding:10px;
+  width:300px;
+  clear:both;
+  }
+  
+.news_box .news {
+  border-bottom:1px dotted #6E6E6E;
+  padding-bottom:10px;
+  margin-bottom:15px;
+  }
+  
+.news_box .title {
+  margin-left:2px;
+  font-size:11px;
+  font-weight:bold;
+  border-bottom:1px solid #444444;
+  padding-bottom:3px;
+  }
+  
+.news_box .date {
+  font-size:9px;
+  color:#3F3F3F;
+  display:inline;
+  float:right;
+  }
+
+/* Masz problemy ze spawaniem..... */
+.main_title{
+  text-align:center;
+  font-size:16px;
+  margin-top:18px;
+  text-shadow:#5494E2 0px 2px 2px;
+  }
+ 
+.main_title .second{
+  font-size: 20px;
+  text-shadow:#FB0404 0px 2px 2px;
+  }

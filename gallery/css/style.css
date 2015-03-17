@@ -1,0 +1,117 @@
+.credits {
+	border-bottom: solid 1px #ccc;
+	padding-bottom: 5px;
+	margin: 0 0 30px 0;
+	font: 120% Garamond, Georgia, serif;
+}
+.credits em {
+	color: #999;
+}
+#bottom {
+	color: #FFF;
+	border: 0;
+	border-top: solid 1px #ccc;
+}
+.backlink a {
+	font-size: 10px;
+	text-decoration: none;
+	color: #AAA;
+	float: bottom;
+}
+.backlink a:hover,
+.backlink a:visited:hover {
+	color: #000;
+}
+img {
+	border: none;
+}
+#page_nav {
+	color: #999;
+	clear:both;
+	text-align: center;
+}
+#page_nav a:link, #page_nav a:visited, #page_nav a:hover, #page_nav a:visited:hover {
+	text-decoration: none;
+	color: #999;
+}
+#breadcrumb_nav {
+	color: #999;
+	text-align:center;
+	padding:20px;
+	font-size:18px;
+	font-weight:bold;
+	font-family:Monospace;
+	border-bottom:1px solid #8A8A8A;
+}
+#breadcrumb_nav a:link, #breadcrumb_nav a:hover, #breadcrumb_nav a:visited:hover {
+	text-decoration: underline;
+	color: #E8E8E8;
+}
+a {
+	color: #6BA7D3;	
+}
+#container {
+	overflow: auto;
+	width: 100%
+	z-index: 100;
+	padding-left: 0px; <<
+}
+.hidden {
+	visibility: hidden;
+	position:absolute;
+	top:0;
+	left:0;
+	display:inline;
+}
+
+/* ---------- gallery styles start here ----------------------- */
+.gallery {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.gallery li {
+	padding: 10px;
+	margin: 0;
+	float: left;
+	position: relative;
+	width: 130px;
+	height: 160px;
+	overflow:hidden;
+	margin-left: 40px;
+}
+.gallery li:hover img {
+	border-color: #000;
+	background: #5C5C5C;
+}
+.gallery img {
+	background: #141414;
+	border: solid 1px #383838;
+	padding: 5px;
+}
+.gallery em {
+	color: #999;
+	font-style: normal;
+	padding: 5px 5px;
+	display: block;
+	position: absolute;
+	top: 140px;
+	left: 9px;
+}
+.gallery em-pdf {
+	color: #666;
+	font-style: normal;
+	font-size: 10px;
+	padding: 3px 7px;
+	display: block;
+	position: absolute;
+	top: 118px;
+	left: 9px;
+}
+.gallery a {
+	text-decoration: none;
+}
+.gallery a:hover em {
+	color: #666;
+}
